@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<button id="enable">Enable notifications</button>
+<script type="text/javascript">
+Notification.requestPermission().then(function(result) {
+  alert(result);
+});
+</script>
+</body>
+</html>
